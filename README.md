@@ -13,12 +13,15 @@ The purpose of my analysis was to look at historical data on theater kickstarter
 ###Analysis of Outcomes Based on Launch Date
 
 I had to first use the "=year()" function in Excel to extract the year from the start date column in the data set. From here I chose to create a pivot table, using the "Parent Category" - then choosing the theater category - and "Years'' columns as filters. Afterwards, I chose "Outcome" for the column and "Start Date" as the row. I had to manipulate the rows to show by month. This separates the data, giving the total number of successful, failed, and canceled theater shows from 2009-2017, by month. Being that the data is linear, I chose a line chart to best showcase the outcomes.
+![alt text](https://github.com/scaslo2/kickstarter-analysis/blob/0168431a1bdf656629dde1371a5538e457a7f5b9/Theater_Outcomes_vs_Launch.png)
 
 ###Analysis of Outcomes Based on Goals
 
 In order to effectively analyze outcomes based on goals, I had to create 12 unique ranges, from <$1000 to >$50,000, with $5,000 intervals. From here, I used the "=countifs()" function to count the number of successful, failed, and canceled theater shows by the quantity of the goal. For example, I counted the number of successful theater shows whose goals were between $5,000 and $9,999 and got a total of 93. 
 
 I then used the "=sum()" function to find the total number of projects within each goal range and with this I was able to find the percentage of successful, failed, and canceled theater shows as well. I used my findings to create a line chart that showcased the percentage of successful, failed, and canceled theater shows by goal range. 
+
+![alt text](https://github.com/scaslo2/kickstarter-analysis/blob/0168431a1bdf656629dde1371a5538e457a7f5b9/Outcomes_vs_Goals.png)
 
 
 ###Challenges and Difficulties Encountered
