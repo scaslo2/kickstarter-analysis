@@ -5,6 +5,7 @@
 For this project I analyzed the given data set on kickstarter campaigns, starting from 2009 until 2017. I was given data on how much a campaign's goal was, how much was actually pledged, the outcome of the campaign - was it successful or not - as well as the category of the proposed campaign - was it for a television show, theater show, drama, etc. For this analysis, I chose to focus on theater kickstarter campaigns.
 
 ###Purpose
+
 The purpose of my analysis was to look at historical data on theater kickstarter campaigns. I wanted to see how successful or not a campaign was based on when the launch date was as well as how much the projected goal amount was. 
 
 
